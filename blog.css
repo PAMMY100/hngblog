@@ -1,0 +1,96 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    padding: 0% 10%;
+    margin: 0;
+  }
+
+  header {
+    background-color: #fff;
+    margin-top: 5px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+    text-align: center;
+    width: 100%;
+    color: #2c3e50;
+  }
+
+header h3 {
+    color: #2c6aa7;
+}
+
+main {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+article h1 {
+    color: #2c6aa7;
+}
+
+  .hire-card {
+    background-color: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 25px;
+    border-radius: 5px;
+    text-align: center;
+    margin-top: 20px;
+    width: 100%;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+
+  .hire-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2);
+  }
+
+  .hire-card h1 {
+    font-size: 28px;
+    color: #2c3e50;
+    margin-bottom: 20px;
+  }
+
+  .hire-card p {
+    font-size: 16px;
+    color: #666;
+    margin-bottom: 25px;
+  }
+
+  .hire-card .skills {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 35px;
+  }
+
+  .hire-card .skill {
+    background-color: #3498db;
+    color: #fff;
+    padding: 20px 35px;
+    border-radius: 20px;
+    font-size: 19px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+
+  .hire-card .skill:hover {
+    background-color: #2980b9;
+  }
+
+  .hire-card .cta {
+    background-color: #2ecc71;
+    color: #fff;
+    padding: 20px 30px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+  }
+
+  .hire-card .cta:hover {
+    background-color: #27ae60;
+  }
+
+.plan {
+    color: #2c6aa7;
+}
